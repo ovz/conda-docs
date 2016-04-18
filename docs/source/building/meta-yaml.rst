@@ -32,7 +32,7 @@ Lower case name of package, may contain '-' but no spaces
 Package version
 ~~~~~~~~~~~~~~~
 
-Version of package. Should use the PEP-386 verlib conventions. Note that YAML will 
+Version of package. Should use the `PEP 440 <https://www.python.org/dev/peps/pep-0440/>`_. verlib conventions. Note that YAML will 
 interpret versions like 1.0 as floats, meaning that 0.10 will be the same as 0.1. To
 avoid this, always put the version in quotes, so that it will be interpreted as a 
 string.
